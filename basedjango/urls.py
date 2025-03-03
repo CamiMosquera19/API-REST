@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include ('projects.urls')),
     path('', include ('dataset1.urls')),
+    path('', include ('agroandfarming.urls')),
+    path('', include ('evacolombia.urls')),
 ]
